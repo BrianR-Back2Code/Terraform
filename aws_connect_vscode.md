@@ -56,6 +56,6 @@ sudo apt install awscli
 
 3. In der CLI überprüfen 
    ```sh
-   aws get caller-identity
+   aws sts get-caller-identity
    ```
 
