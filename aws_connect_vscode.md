@@ -54,4 +54,8 @@ sudo apt install awscli
    - **Standard-Region:** `eu-central-1`
    - **Standard-Output-Format:** `json`
 
+3. In der CLI überprüfen 
+   ```sh
+   aws get caller-identity
+   ```
 
