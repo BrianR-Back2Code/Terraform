@@ -7,7 +7,7 @@
 2. Erstelle eine neue Datei in der WSL-Shell:  
 
    ```sh
-   nano terraform-install.sh
+   nano terraform_install.sh
    ```  
 
 3. Füge den kopierten Inhalt in die Datei ein.  
@@ -15,8 +15,8 @@
 5. Führe anschließend die folgenden Befehle aus:  
 
    ```sh
-   chmod u+x terraform-install.sh  
-   bash terraform-install.sh  
+   chmod u+x terraform_install.sh  
+   bash terraform_install.sh  
    ```  
 
 6. **Erfolg!** Terraform sollte nun installiert sein. Überprüfe die Installation mit:  
@@ -71,13 +71,13 @@ sudo apt update && sudo apt install -y git
 1. Mache das Installationsskript ausführbar:  
 
    ```sh
-   chmod u+x terraform-install.sh
+   chmod u+x terraform_install.sh
    ```  
 
 2. Führe das Skript aus:  
 
    ```sh
-   bash terraform-install.sh
+   bash terraform_install.sh
    ```  
 
 3. Überprüfe, ob Terraform erfolgreich installiert wurde:  
